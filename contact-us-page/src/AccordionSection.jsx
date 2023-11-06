@@ -1,5 +1,6 @@
 import { Accordion, AccordionItem as Item } from "@szhsin/react-accordion";
 import chevronDown from "./chevron-down.png";
+import styles from './AccordionSection.module.css';
 const AccordionItem = ({ header, ...rest }) => (
   <Item
     {...rest}
@@ -40,7 +41,7 @@ export default function AccordionSection() {
           <Accordion transition transitionTimeout={250} allowMultiple>
             <h1>عنوان</h1>
             {items.map(({ header, content }, i) => (
-              <AccordionItem header={header} key={i} ArrowDown ArrowUp>
+              <AccordionItem header={header} key={i} >
                 {content}
               </AccordionItem>
             ))}

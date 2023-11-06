@@ -9,7 +9,7 @@ function App() {
     <div className="container-fluid">
       <MainPicture />
       <PageSection />
-      {/* <AccordionSection /> */}
+      <AccordionSection />
       <Footer />
     </div>
   );
