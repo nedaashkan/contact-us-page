@@ -1,0 +1,25 @@
+.MainPicture .imgPlace {
+  position: relative;
+}
+.imgPlace img {
+  border-top: 1px solid var(--light-blue);
+}
+
+.imgPlace h1 {
+  position: absolute;
+  top: 50%;
+  left: 42%;
+  color: white;
+  font-size: 2.1rem;
+}
+
+.imgPlace svg {
+  position: absolute;
+  top: 52%;
+  left: 39%;
+  color: white;
+  max-width: 30px;
+  max-height: 30px;
+}
+
+
